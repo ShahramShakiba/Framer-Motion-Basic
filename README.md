@@ -3,27 +3,43 @@
 <!----------------------------------------- Description ---------------------------------------->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" />&nbsp; _Description_
 
-> ### _Framer Motion_ is a ...
+> ### _Framer Motion_ is a popular open-source library for creating fluid animations and interactive user interfaces in React applications.
+- It provides a simple and intuitive API for defining animations, transitions, and gestures, making it easier for developers to bring their designs to life.
   
 <br/>
 
 > [!IMPORTANT]
 >> #### Key Features & Benefits : 
-#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" height="20" /> &nbsp; _..._
-- ...
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" height="20" /> &nbsp; _Declarative Syntax_
+- Allows you to describe animations in a clear and concise manner. 
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" height="20" /> &nbsp; _Provides a range of built-in animation controls_
+- Giving you more flexibility in creating dynamic and engaging user interactions.
 <br/>
 
 ***
 <!--===================== Framer Motion =============================-->
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Laptop.webp" alt="Laptop" width="35" height="30"  /> &nbsp; _React Challenges_  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" width="20"  />
-- #### In this project, my primary objective is .... <br/><br/>
+- #### In this project, my primary objective is on utilizing ` Framer Motion ` to animate React Apps effectively, enhancing user engagement and interactivity on the website.
+- The goal is to breathe life into the user interface by _creating fluid and visually appealing animations_ that captivate users and elevate their overall experience. <br/><br/>
  
 
 > _Which Concepts in Have I Covered_:  
 
-#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" height="20" /> &nbsp; _...._
-- ....
-#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" height="20" /> &nbsp; _...._
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/White%20Flag.png" alt="White Flag" width="20" /> &nbsp; _Vanilla CSS_
+- Animating with CSS Transitions
+- Animating with CSS Animations
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/White%20Flag.png" alt="White Flag" width="20" /> &nbsp; _Building More Complex Animation with Framer Motion_
+- _Install_: ` npm install framer-motion `
+- Animating Between Conditional Values
+- Adding Entry Animations with _` initial `_
+- Reusing Animation States with _` variants `_
+- Nested Animations with Variants
+- Animating Staggered Lists with _` staggerChildren `_
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/White%20Flag.png" alt="White Flag" width="20" /> &nbsp; _Animating Elements In & Out_
+- Animating Element Disappearances Removal
+- Making Elements Pop With Hover Animations
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/White%20Flag.png" alt="White Flag" width="20" /> &nbsp; _Scroll-based Animation_
+- ...
 
  
 <br/>
