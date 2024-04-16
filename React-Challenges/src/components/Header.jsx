@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import NewChallenge from './NewChallenge.jsx';
+import { AnimatePresence } from 'framer-motion';
 
 export default function Header() {
   const [isCreatingNewChallenge, setIsCreatingNewChallenge] = useState();
@@ -15,7 +16,9 @@ export default function Header() {
 
   return (
     <>
-      {isCreatingNewChallenge && <NewChallenge onDone={handleDone} />}
+      <AnimatePresence>
+        {isCreatingNewChallenge && <NewChallenge onDone={handleDone} />}
+      </AnimatePresence>
 
       <header id="main-header">
         <h1> Your Challenges </h1>
@@ -27,3 +30,7 @@ export default function Header() {
     </>
   );
 }
+
+/* AnimatePresence
+to be used as a wrapper around the code that conditionally displays or removes elements if you wanna animate those elements - especially to animate the "disappearance" of those elements
+*/
