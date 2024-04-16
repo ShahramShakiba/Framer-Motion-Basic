@@ -58,7 +58,12 @@ export default function NewChallenge({ onDone }) {
           <input ref={deadline} type="date" name="deadline" id="deadline" />
         </p>
 
-        <ul id="new-challenge-images">
+        <motion.ul
+          id="new-challenge-images"
+          variants={{
+            visible: { transition: { staggerChildren: 0.09 } },
+          }}
+        >
           {images.map((image) => (
             <motion.li
               variants={{
@@ -74,7 +79,7 @@ export default function NewChallenge({ onDone }) {
               <img {...image} />
             </motion.li>
           ))}
-        </ul>
+        </motion.ul>
 
         <p className="new-challenge-actions">
           <button type="button" onClick={onDone}>
@@ -87,9 +92,12 @@ export default function NewChallenge({ onDone }) {
     </Modal>
   );
 }
- 
+
 /* why we should not use:  exit="hidden"
-- if you use this the "entry animation" of these "images" will gone
+
+- first of all we need to use "exit" since we get a delay of removal
+
+- if you use this the "entry animation" of these "images" will gone 
 
 - if you set one of those animation-props like initial, animate, exit on some child-component when using that "variants" feature to activate animations
 
@@ -98,4 +106,8 @@ export default function NewChallenge({ onDone }) {
 instead you should use it like this:   exit={{ opacity: 1, scale: 1 }}
 
 - to not causing this delay in the removal here in "images"
+*/
+
+/* Stagger animations - staggerChildren
+- to delay Children - play them after each other instead of simultaneously
 */
