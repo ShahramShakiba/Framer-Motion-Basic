@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { useContext } from 'react';
 
 import { ChallengesContext } from '../store/challenges-context.jsx';
@@ -48,12 +49,19 @@ export default function ChallengeItem({
         </header>
 
         <div
-          className={`challenge-item-details ${isExpanded ? 'expanded' : ''}`}
+          // className={`challenge-item-details ${isExpanded ? 'expanded' : ''}`}
+          className="challenge-item-details"
         >
           <p>
             <button onClick={onViewDetails}>
               View Details
-              <span className="challenge-item-details-icon"> &#9650; </span>
+              <motion.span
+                className="challenge-item-details-icon"
+                animate={{ rotate: isExpanded ? 180 : 0 }}
+                transition={{ duration: 0.3 }}
+              >
+                &#9650;
+              </motion.span>
             </button>
           </p>
 
@@ -69,3 +77,13 @@ export default function ChallengeItem({
     </li>
   );
 }
+
+/* 
+animate: describe the animation we want to play
+
+transition: configure the animation that will be played 
+
+type: which type of animation should be played(default= 'spring' - inertia - just - keyframes - tween )
+
+bounce: control how much it bounces between 0 - 1
+*/

@@ -282,12 +282,12 @@ main {
   display: inline-block;
   font-size: 0.85rem;
   margin-left: 0.45rem;
-  transition: transform 0.3s ease-in;
+  /* transition: transform 0.3s ease-in; */
 }
 
-.challenge-item-details.expanded .challenge-item-details-icon {
+/* .challenge-item-details.expanded .challenge-item-details-icon {
   transform: rotate(180deg);
-}
+} */
 
 .challenge-item-description {
   margin: 0;
@@ -317,12 +317,12 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  animation: slideUp-fadeIn 0.6s ease-in forwards;
+  animation: slideUp-fadeIn 0.4s ease-in forwards;
 }
 
 @keyframes slideUp-fadeIn {
   0% {
-    transform: translateY(45px);
+    transform: translateY(30px);
     opacity: 0;
   }
   
