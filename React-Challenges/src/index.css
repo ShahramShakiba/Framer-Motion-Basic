@@ -279,7 +279,8 @@ main {
 .challenge-item-details-icon {
   display: inline-block;
   font-size: 0.85rem;
-  margin-left: 0.25rem;
+  margin-left: 0.45rem;
+  transition: transform 0.3s ease-in;
 }
 
 .challenge-item-details.expanded .challenge-item-details-icon {
