@@ -197,6 +197,7 @@ main {
   border-radius: 8px;
 }
 
+/*_________________ Challenge _________________*/
 .challenge-items {
   width: 100%;
   max-width: 90%;
@@ -276,6 +277,7 @@ main {
   padding: 0;
 }
 
+/*--- details-icon ---*/
 .challenge-item-details-icon {
   display: inline-block;
   font-size: 0.85rem;
@@ -307,13 +309,27 @@ main {
   background-color: #0f3cef;
 }
 
+/*_________________ Modal _________________*/
 .modal {
-  top: 10%;
+  top: 15%;
   border-radius: 6px;
   padding: 1.5rem;
   width: 30rem;
   max-width: 90%;
   z-index: 10;
+  animation: slideUp-fadeIn 0.6s ease-in forwards;
+}
+
+@keyframes slideUp-fadeIn {
+  0% {
+    transform: translateY(45px);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .modal h2 {

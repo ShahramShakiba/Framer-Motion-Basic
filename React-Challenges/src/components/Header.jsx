@@ -5,7 +5,7 @@ import NewChallenge from './NewChallenge.jsx';
 export default function Header() {
   const [isCreatingNewChallenge, setIsCreatingNewChallenge] = useState();
 
-  const handleStartAddNewChallenge = () => {
+  const addNewChallengeHandler = () => {
     setIsCreatingNewChallenge(true);
   };
 
@@ -20,7 +20,7 @@ export default function Header() {
       <header id="main-header">
         <h1> Your Challenges </h1>
 
-        <button onClick={handleStartAddNewChallenge} className="button">
+        <button onClick={addNewChallengeHandler} className="button">
           Add Challenge
         </button>
       </header>

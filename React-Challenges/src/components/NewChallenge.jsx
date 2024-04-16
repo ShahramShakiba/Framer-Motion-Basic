@@ -16,8 +16,8 @@ export default function NewChallenge({ onDone }) {
     setSelectedImage(image);
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
     const challenge = {
       title: title.current.value,
