@@ -311,16 +311,16 @@ main {
 
 /*_________________ Modal _________________*/
 .modal {
-  top: 15%;
+  top: 20%;
   border-radius: 6px;
   padding: 1.5rem;
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  animation: slideUp-fadeIn 0.4s ease-in forwards;
+  /* animation: slideUp-fadeIn 0.4s ease-in forwards; */
 }
 
-@keyframes slideUp-fadeIn {
+/* @keyframes slideUp-fadeIn {
   0% {
     transform: translateY(30px);
     opacity: 0;
@@ -330,7 +330,7 @@ main {
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
 .modal h2 {
   margin-top: 0;
