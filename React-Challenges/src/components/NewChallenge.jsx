@@ -68,7 +68,7 @@ export default function NewChallenge({ onDone }) {
             <motion.li
               variants={{
                 hidden: { opacity: 0, scale: 0.3 },
-                visible: { opacity: 1, scale: 1 },
+                visible: { opacity: 1, scale: [0.5, 1.2, 1] },
               }}
               exit={{ opacity: 1, scale: 1 }}
               transition={{ type: 'spring' }}
@@ -110,4 +110,8 @@ instead you should use it like this:   exit={{ opacity: 1, scale: 1 }}
 
 /* Stagger animations - staggerChildren
 - to delay Children - play them after each other instead of simultaneously
+*/
+
+/* Working with Keyframes
+-  scale: [0.5, 1.2, 1] <- keyframes: an array of numbers instead of one number
 */
