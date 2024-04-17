@@ -64,7 +64,12 @@ export default function NewChallenge({ onDone }) {
 
         <p>
           <label htmlFor="description"> Description </label>
-          <textarea ref={description} name="description" id="description" />
+          <textarea
+            ref={description}
+            name="description"
+            id="description"
+            rows="5"
+          />
         </p>
 
         <p>
@@ -96,11 +101,11 @@ export default function NewChallenge({ onDone }) {
         </motion.ul>
 
         <p className="new-challenge-actions">
-          <button type="button" onClick={onDone}>
+          <button className='cancel-challenge' type="button" onClick={onDone}>
             Cancel
           </button>
 
-          <button> Add Challenge </button>
+          <button className='add-challenge'> Add Challenge </button>
         </p>
       </form>
     </Modal>
