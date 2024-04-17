@@ -322,6 +322,7 @@ main {
           font-size: 0.85rem;
           border-bottom: 1px solid transparent;
           transition: all 0.2s ease-in;
+          cursor: pointer;
 
           &:hover {
             color: #27a2db;
@@ -332,6 +333,7 @@ main {
 
         & .btn-negative {
           color: #ff7b7b;
+          cursor: pointer;
 
           &:hover {
             color: #ff4f4f;
