@@ -30,16 +30,18 @@
 - Animating with CSS Animations
 #### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/White%20Flag.png" alt="White Flag" width="20" /> &nbsp; _Building More Complex Animation with Framer Motion_
 - _Install_: ` npm install framer-motion `
-- Animating Between Conditional Values
+- Animating Between _Conditional Values_
 - Adding Entry Animations with _` initial `_
 - Reusing Animation States with _` variants `_
-- Nested Animations with Variants
+- Nested Animations with Variants in _Child-Component_
 - Animating Staggered Lists with _` staggerChildren `_
+- Re-triggering Animations via _Keys_
 #### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/White%20Flag.png" alt="White Flag" width="20" /> &nbsp; _Animating Elements In & Out_
 - Animating Element Disappearances Removal
-- Making Elements Pop With Hover Animations
+- Making Elements Pop With Hover Animations using ` whileHover `
+- Animating Shared Elements
 #### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/White%20Flag.png" alt="White Flag" width="20" /> &nbsp; _Scroll-based Animation_
-- ...
+- Scroll-based Animations with ` useScroll() ` and ` useTransform() ` Hooks
 
  
 <br/>
