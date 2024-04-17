@@ -85,6 +85,8 @@ export default function Challenges() {
 }
 
 /* key
+?- you need a KEY if you have an animate presence with multiple child items.
+
 - to get back the removal animation back we need to tell framer-motion to set apart "ol" and "p" from each other
 */
 

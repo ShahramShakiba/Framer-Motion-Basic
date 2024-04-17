@@ -10,13 +10,14 @@ const Tab = ({ isSelected, onSelect, badgeCaption, children }) => {
       >
         {children}
 
-        <Badge caption={badgeCaption}></Badge>
+        {/* key= re-triggering animation on the badge */}
+        <Badge key={badgeCaption} caption={badgeCaption}></Badge>
       </button>
 
       {isSelected && (
         <motion.div
           layoutId="tab-indicator"
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.3 }}
           className="active-tab-indicator"
         />
       )}
